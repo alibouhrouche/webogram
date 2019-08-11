@@ -5,9 +5,7 @@
 
 Telegram offers great [apps for mobile communication](https://www.telegram.org). It is based on the [MTProto protocol](https://core.telegram.org/mtproto) and has an [Open API](https://core.telegram.org/api). I personally like Telegram for its speed and cloud-support (that makes a web app possible, unlike in the case of WA and others).
 
-MTProto data can be carried over HTTP (SSL is also supported), so this project is my take at creating one.
-
-That said, I'm using this app myself and I'd like to share its sources, so anyone can contribute to the development. Any help is welcome!
+This is a fork of [https://github.com/zhukov/webogram](https://github.com/zhukov/webogram)
 
 
 ### Interface
@@ -33,10 +31,7 @@ Here are some screenshots of the interface:
 
 | Description        | URL           | Type  |
 | ------------- |-------------| -----:|
-| Online Web-version (hosted on Telegram servers)      | https://web.telegram.org/ | hosted
-| Online Web-version (hosted on GitHub pages)      | https://zhukov.github.io/webogram | hosted
-| Chrome Web Store      | [https://chrome.google.com/webstore/detail/telegram/ clhhggbfdinjmjhajaheehoeibfljjno](https://chrome.google.com/webstore/detail/telegram/clhhggbfdinjmjhajaheehoeibfljjno) |   packed
-| Firefox & FirefoxOS Marketplace | https://marketplace.firefox.com/app/telegram |    packed
+| Online Web-version (hosted on GitHub pages)      | https://ali.js.org/webogram/ | hosted
 
 
 
@@ -44,7 +39,7 @@ Here are some screenshots of the interface:
 
 **Packed version**: the app is downloaded at once in a package via HTTPS. The package is updated less frequently than the Web-version.
 
-All of the apps above are submitted and maintained by [@zhukov](https://github.com/zhukov), so feel free to use them and report bugs [here](https://github.com/zhukov/webogram/issues). Please do not report bugs which are only reproducible in different locations.
+All of the apps above are submitted and maintained by [@alibouhrouche](https://github.com/alibouhrouche), so feel free to use them and report bugs [here](https://github.com/alibouhrouche/webogram/issues). Please do not report bugs which are only reproducible in different locations.
 
 
 ## Technical details
